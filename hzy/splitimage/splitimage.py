@@ -3,7 +3,6 @@
 # 脚本传入三个参数：源目录，比例，目标目录
 # 作用：将愿目录中的图片按照比例存入目标目录的train和val文件夹中
 
-
 import argparse
 import os
 import random
