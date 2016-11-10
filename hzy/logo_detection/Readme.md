@@ -72,7 +72,7 @@ python voc_type_xml.py /Users/mac/logo_detection/paste_img/Annotations /Users/ma
 ### make_voc_text.py
 生成voc数据集类似的
 ```
-test.txt，train.txt，trainval.txt，val.txt
+test.txt,train.txt,trainval.txt,val.txt
 ```
 存储xml文件的文件夹格式
 ```
