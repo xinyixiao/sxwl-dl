@@ -1,4 +1,3 @@
-
 # coding: utf-8
 # this file to make 'voc-like' xmlfile 
 # author hanzy 2016_11_10
@@ -9,20 +8,20 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("where_save_xml",
-        help="where do u want to save your xmls: example:/Users/mac/logo_detection/paste_img/Annotations")
+        help = "where do u want to save your xmls: example:/Users/mac/logo_detection/paste_img/Annotations")
 parser.add_argument("where_img",
-        help="where your images are: example:/Users/mac/logo_detection/paste_img/new_img")
+        help = "where your images are: example:/Users/mac/logo_detection/paste_img/new_img")
 parser.add_argument("where_positioninfo",
-        help="where your position_info_txt is: example:/Users/mac/logo_detection/paste_img/position_info.txt")
+        help = "where your position_info_txt is: example:/Users/mac/logo_detection/paste_img/position_info.txt")
 args = parser.parse_args()
 
-#where_save_xml = '/Users/mac/logo_detection/paste_img/Annotations'
+# where_save_xml = '/Users/mac/logo_detection/paste_img/Annotations'
 where_save_xml = args.where_save_xml
 
-#where_img = '/Users/mac/logo_detection/paste_img/new_img'
+# where_img = '/Users/mac/logo_detection/paste_img/new_img'
 where_img = args.where_img
 
-#where_positioninfo = '/Users/mac/logo_detection/paste_img/position_info.txt'
+# where_positioninfo = '/Users/mac/logo_detection/paste_img/position_info.txt'
 where_positioninfo = args.where_positioninfo
 
 position_info = open(where_positioninfo, "r")
@@ -41,7 +40,7 @@ while True:
         my_ymax = positioninfo.split(' ')[5]
     else:
         break
-    #get image info
+    # get image info
     img = Image.open(where_img + '/' + my_filename + '.jpg')
     my_width,my_height = img.size
     my_depth = img.layers
@@ -51,7 +50,7 @@ while True:
 
     
     # make xml
-    doc = Document()  #创建DOM文档对象
+    doc = Document()
 
     root = doc.createElement('annotation') 
     doc.appendChild(root)

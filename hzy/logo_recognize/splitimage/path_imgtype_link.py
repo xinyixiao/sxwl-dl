@@ -9,22 +9,46 @@ import os
 
 parser = argparse.ArgumentParser()
 parser.add_argument("source",
-        help="which source do u want to rename: example:/Users/mac/image/")
+        help = "which source do u want to rename: example:/Users/mac/image/")
 args = parser.parse_args()
 
 source = args.source
-#source = '/Users/mac/python_work/getlogo/logo_img2/'
+# source = '/Users/mac/python_work/getlogo/logo_img2/'
 
 dirnames = []
 mapped = ''
 
-#获取源目录下的图片文件夹名
-def getdir (args,dirname,filenames):
+def getdir (args, dirname, filenames):
+    """
+    Callback Function
+
+    @params:
+    args : the parameter of os.path.walk(source, getdir, None)
+    dirname : folder locations
+    filename : filename in folder locations
+    """
+
     dirnames.append(dirname)
+
+
+def writetolua(info):
+    """
+
+    @params:
+    info : the information map
+    """
+
+    # save to .lua file
+    txt_path = 'path_imgtype_link.lua'
+    with open(txt_path, "w") as f:
+            f.write(info)
+
+
+# get img dirnames
 os.path.walk(source, getdir, None)
 dirnames = dirnames[1:]
 
-#修改文件夹名，并且存下映射信息
+# change img dirnames && save name-type map
 count = 1
 mapped = mapped + 'return{'
 for dirname in dirnames:
@@ -38,9 +62,5 @@ for dirname in dirnames:
     count += 1
 mapped = mapped[:-2] + '}'
 
-#将mapped写出到lua文件
-def writetolua(info):
-    txt_path = 'path_imgtype_link.lua'
-    with open(txt_path,"w") as f:
-            f.write(info)
+# save map to .lua file
 writetolua(mapped)
