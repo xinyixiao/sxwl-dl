@@ -1,6 +1,8 @@
 
 # coding: utf-8
 # this file to make 'voc-like' xmlfile 
+# author hanzy 2016_11_10
+
 from xml.dom.minidom import Document
 from PIL import Image
 import argparse
@@ -23,7 +25,7 @@ where_img = args.where_img
 #where_positioninfo = '/Users/mac/logo_detection/paste_img/position_info.txt'
 where_positioninfo = args.where_positioninfo
 
-position_info = open("/Users/mac/logo_detection/paste_img/position_info.txt", "r")
+position_info = open(where_positioninfo, "r")
 while True:
     
     # get position info

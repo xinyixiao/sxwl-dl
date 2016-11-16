@@ -1,6 +1,8 @@
 
 # coding: utf-8
 # this file to make paste-logo images
+# author hanzy 2016_11_10
+
 from PIL import Image 
 import random
 import os
@@ -78,9 +80,14 @@ for logo_dir_path in logo_dir_paths:
             logo_length,logo_weigh = imglogo.size
             bg_length,bg_weigh = imgbg.size
 
+            if(bg_length > bg_weigh):
+                my_length = bg_weigh
+            else:
+                my_length = bg_length
+                
             #get logo img resize size by random in (1/16,1/2)
             while(1):
-                target_length = random.randint(bg_length/16,bg_weigh/2)
+                target_length = random.randint(my_length/16,my_length/2)
                 target_weigh = logo_weigh * target_length / logo_length
                 if target_length < bg_length and target_weigh < bg_weigh:
                     break;

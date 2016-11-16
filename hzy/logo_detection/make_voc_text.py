@@ -1,6 +1,8 @@
 
 # coding: utf-8
 # this file to make 'voc-like' test.txt,train.txt,trainval.txt,val.txt
+# author hanzy 2016_11_10
+
 import os
 import random
 import argparse
