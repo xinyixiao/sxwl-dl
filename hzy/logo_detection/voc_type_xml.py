@@ -32,7 +32,7 @@ while True:
     positioninfo = positioninfo[:-1]
     if positioninfo:
         my_filename = positioninfo.split(' ')[0]
-        my_filename = my_filename.split('_')[0] + '_' + str(int(my_filename.split('_')[1])-1)
+        #my_filename = my_filename.split('_')[0] + '_' + str(int(my_filename.split('_')[1])-1)
         my_logotype = positioninfo.split(' ')[1]
         my_xmin = positioninfo.split(' ')[2]
         my_ymin = positioninfo.split(' ')[3]
