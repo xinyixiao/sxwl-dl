@@ -2,25 +2,59 @@ GoogleOpenImage包含900w标注数据，存在两个images.csv文件中，分别
 
 #### /images.csv 格式
 每条信息拥有如下字段:
+<table>
+  <tr>
+    <th>name</th>
+    <th>what</th>
+  </tr>
+  <tr>
+    <td>ImageID</td>
+    <td>图片ID</td>
+  </tr>
+  <tr>
+    <td>Subset</td>
+    <td>图片作用(train/validation)</td>
+  </tr>
+  <tr>
+    <td>OriginalURL</td>
+    <td>图片下载URL</td>
+  </tr>
+  <tr>
+    <td>OriginalLandingURL</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>License</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>AuthorProfileURL</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Author</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Title</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>OriginalSize</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>OriginalMD5</td>
+    <td></td>
+  </tr>
+</table>
 
-name | what
----|---
-ImageID | 图片ID
-Subset| 图片作用(train/validation)
-OriginalURL | 图片下载URL
-OriginalLandingURL | 
-License | 
-AuthorProfileURL | 
-Author | 
-Title | 
-OriginalSize | 
-OriginalMD5 |
 
 自己写了一个py文件解析并且能够下载含有特定关键字的图片
 ```
-/home/sxwl1080/hzy/sxwl_dataset/google_open_img/download_google_image.py
+/home/sxwl1080/hzy/dl-data/sxwl_dataset/google_open_img/download_google_image.py
 ```
 csv文件路径
 ```
-/home/sxwl1080/hzy/sxwl_dataset/google_open_img
+/home/sxwl1080/hzy/dl-data/sxwl_dataset/google_open_img
 ```

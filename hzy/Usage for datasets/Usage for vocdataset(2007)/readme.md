@@ -25,5 +25,5 @@ segmentationclass和segmentationobject中均为分割后的结果
 
 存储路径
 ```
-/home/sxwl1080/hzy/sxwl_dataset/Voc2007
+/home/sxwl1080/hzy/dl-data/sxwl_dataset/Voc2007
 ```

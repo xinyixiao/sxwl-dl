@@ -21,5 +21,5 @@ BelgaLogos数据集的10,000张图片已手动注释。并提供两种groundtrut
 ## 存储路径
 
 ```
-/home/sxwl1080/hzy/sxwl_dataset
+/home/sxwl1080/hzy/dl-data/sxwl_dataset
 ```

@@ -1,4 +1,4 @@
-#### 51种车标logo，用于识别
+#### 51种车标logo，用于识别(11904张)
 
 
 <table>
@@ -211,3 +211,17 @@
     <td>221</td>
   </tr>
 </table>
+
+## 分类问题(仿照github上fb.resnet.torch工程制作数据集)
+#### 训练集路径(51类9668张图片)
+```
+/home/sxwl1080/hzy/dl-data/sxwl_dataset/CarLogos51_recognize/train
+```
+#### 测试集路径(51类2235张图片)
+```
+/home/sxwl1080/hzy/dl-data/sxwl_dataset/CarLogos51_recognize/val
+```
+#### 分类所需的lua映射文件路径
+```
+/home/sxwl1080/hzy/dl-data/sxwl_dataset/CarLogos51_recognize/path_imgtype_link.lua
+```
