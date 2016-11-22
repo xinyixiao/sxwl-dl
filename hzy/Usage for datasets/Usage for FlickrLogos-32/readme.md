@@ -214,4 +214,8 @@
 ```
 /home/sxwl1080/hzy/dl-data/sxwl_dataset/FlickrLogos_pasted/logo_recognize/dataset/val
 ```
+#### lua映射文件路径
+```
+/home/sxwl1080/hzy/dl-data/sxwl_dataset/FlickrLogos_pasted/logo_recognize/dataset/path_imgtype_link.lua
+```
 
