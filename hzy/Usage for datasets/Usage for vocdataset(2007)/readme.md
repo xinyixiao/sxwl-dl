@@ -1,7 +1,6 @@
 ### 一般voc解压出来后都包括
-```
 Annotations,ImageSets,JPEFImages,SegmentationClass ,SegmentationObject
-```
+
 #### Annotations
 Annotations中是放着所有图片的标记信息，以xml为后缀名.
 
