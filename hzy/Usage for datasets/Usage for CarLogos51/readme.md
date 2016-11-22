@@ -14,55 +14,200 @@
     <td>Alpha-Romeo</td>
     <td>234</td>
   </tr>
+  <tr>
+    <td>Aston-Martin</td>
+    <td>280</td>
+  </tr>
+  <tr>
+    <td>Audi</td>
+    <td>229</td>
+  </tr>
+  <tr>
+    <td>Bentley</td>
+    <td>302</td>
+  </tr>
+  <tr>
+    <td>Benz</td>
+    <td>301</td>
+  </tr>
+  <tr>
+    <td>BMW</td>
+    <td>276</td>
+  </tr>
+  <tr>
+    <td>Bugatti</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>Buick</td>
+    <td>273</td>
+  </tr>
+  <tr>
+    <td>Cadillac</td>
+    <td>254</td>
+  </tr>
+  <tr>
+    <td>Chery</td>
+    <td>206</td>
+  </tr>
+  <tr>
+    <td>Chevloret</td>
+    <td>210</td>
+  </tr>
+  <tr>
+    <td>Citroen</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>Dodge</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>Ferrari</td>
+    <td>255</td>
+  </tr>
+  <tr>
+    <td>Fiat</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>Ford</td>
+    <td>246</td>
+  </tr>
+  <tr>
+    <td>Holden</td>
+    <td>201</td>
+  </tr>
+  <tr>
+    <td>Honda</td>
+    <td>209</td>
+  </tr>
+  <tr>
+    <td>Hyundai</td>
+    <td>236</td>
+  </tr>
+  <tr>
+    <td>Infiniti</td>
+    <td>289</td>
+  </tr>
+  <tr>
+    <td>Isuzu</td>
+    <td>211</td>
+  </tr>
+  <tr>
+    <td>Jaguar</td>
+    <td>205</td>
+  </tr>
+  <tr>
+    <td>Jeep</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>Kia</td>
+    <td>205</td>
+  </tr>
+  <tr>
+    <td>Lamborghini</td>
+    <td>230</td>
+  </tr>
+  <tr>
+    <td>Lancia</td>
+    <td>221</td>
+  </tr>
+  <tr>
+    <td>Lexus</td>
+    <td>336</td>
+  </tr>
+  <tr>
+    <td>Lincoin</td>
+    <td>224</td>
+  </tr>
+  <tr>
+    <td>Maserati</td>
+    <td>262</td>
+  </tr>
+  <tr>
+    <td>Maybach</td>
+    <td>238</td>
+  </tr>
+  <tr>
+    <td>Mazda</td>
+    <td>229</td>
+  </tr>
+  <tr>
+    <td>Mitsubishi</td>
+    <td>214</td>
+  </tr>
+  <tr>
+    <td>Nissan</td>
+    <td>237</td>
+  </tr>
+  <tr>
+    <td>Opel</td>
+    <td>226</td>
+  </tr>
+  <tr>
+    <td>Peugeot</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>Porsche</td>
+    <td>254</td>
+  </tr>
+  <tr>
+    <td>Renault</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>Rolls-Royce</td>
+    <td>212</td>
+  </tr>
+  <tr>
+    <td>SAAB</td>
+    <td>213</td>
+  </tr>
+  <tr>
+    <td>Scion</td>
+    <td>242</td>
+  </tr>
+  <tr>
+    <td>Skoda</td>
+    <td>218</td>
+  </tr>
+  <tr>
+    <td>Subaru</td>
+    <td>217</td>
+  </tr>
+  <tr>
+    <td>Suzuki</td>
+    <td>242</td>
+  </tr>
+  <tr>
+    <td>Tata</td>
+    <td>250</td>
+  </tr>
+  <tr>
+    <td>Tesla</td>
+    <td>203</td>
+  </tr>
+  <tr>
+    <td>Toyota</td>
+    <td>265</td>
+  </tr>
+  <tr>
+    <td>Triumph</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>Vauxhall</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>Volks-Wagenwerk</td>
+    <td>267</td>
+  </tr>
+  <tr>
+    <td>Volvo</td>
+    <td>221</td>
+  </tr>
 </table>
-Acura | 260
-Alpha-Romeo | 234
-Aston-Martin | 280
-Audi | 229
-Bentley | 302
-Benz | 301
-BMW | 276
-Bugatti | 200
-Buick | 273
-Cadillac | 254
-Chery | 206
-Chevloret | 210
-Citroen | 200
-Dodge | 200
-Ferrari | 255
-Fiat | 200
-Ford | 246
-Holden | 201
-Honda | 209
-Hyundai | 236
-Infiniti | 289
-Isuzu | 211
-Jaguar | 205
-Jeep | 200
-Kia | 205
-Lamborghini | 230
-Lancia | 221
-Lexus | 336
-Lincoin | 224
-Maserati | 262
-Maybach | 238
-Mazda | 229
-Mitsubishi | 214
-Nissan | 237
-Opel | 226
-Peugeot | 200
-Porsche | 254
-Renault | 200
-Rolls-Royce | 212
-SAAB | 213
-Scion | 242
-Skoda | 218
-Subaru | 217
-Suzuki | 242
-Tata | 250
-Tesla | 203
-Toyota | 265
-Triumph | 200
-Vauxhall | 200
-Volks-Wagenwerk | 267
-Volvo | 221

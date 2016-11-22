@@ -13,40 +13,148 @@
 ```
 目录下，字段为x,y,width,height支持多目标检测。
 
-logo | count
----|---
-adidas | 70
-aldi | 70
-apple | 70
-becks | 70
-bmw | 70
-carlsberg | 70
-chimay | 70
-coccola | 70
-corona | 70
-dhl | 70
-erdinger | 70
-esso | 70
-fedex | 70
-ferrari | 70
-ford | 70
-fosters | 70
-google | 70
-guiness | 70
-heineken | 70
-HP | 70
-mika | 70
-nvidia | 70
-paulaner | 70
-pepsi | 70
-rittersport | 70
-shell | 70
-single | 70
-starbucks | 70
-stellaartois | 70
-texaco | 70
-tsingtao | 70
-ups | 70
+<table>
+  <tr>
+    <th>logo</th>
+    <th>count</th>
+  </tr>
+  <tr>
+    <td>adidas</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>aldi</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>apple</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>becks</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>bmw</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>carlsberg</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>chimay</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>coccola</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>dhl</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>erdinger</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>corona</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>dhl</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>erdinger</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>esso</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>fedex</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>ferrari</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>ford</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>fosters</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>google</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>guiness</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>heineken</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>HP</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>mika</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>nvidia</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>paulaner</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>pepsi</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>rittersport</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>whell</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>single</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>starbucks</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>stellaartois</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>texaco</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>tsingtao</td>
+    <td>70</td>
+  </tr>
+  <tr>
+    <td>ups</td>
+    <td>70</td>
+  </tr>
+</table>
 
 存储路径
 ```
