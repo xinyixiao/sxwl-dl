@@ -6,7 +6,7 @@ BelgaLogos数据集的10,000张图片已手动注释。并提供两种groundtrut
 
 #### Global groundtruth
 一共有26种logo，每张图像可能存在多个logo，每张图像针对每个logo有一条信息，和标志位，存在则标志位为1，否则为0。如果图像中的logo像素小于10*10，则不标注这个logo。
-    
+
 #### Local groundtruth
 一共有37种logo，每个图像存在多个logo，并给出坐标，已有人肉眼标注，若肉眼不能识别则标注为‘垃圾’（0），否则为‘ok’（1）。
 
