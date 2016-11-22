@@ -11,6 +11,7 @@ BelgaLogos数据集的10,000张图片已手动注释。并提供两种groundtrut
 一共有37种logo，每个图像存在多个logo，并给出坐标，已有人肉眼标注，若肉眼不能识别则标注为‘垃圾’（0），否则为‘ok’（1）。
 
 ## Queries
+
 #### qset3_internal_and_local.gt
 字段信息：类别编号(增量)，类别名称，图片名称，logo，‘肉眼标注’信息，logo框的坐标
 #### qset3_internal_and_local.qry

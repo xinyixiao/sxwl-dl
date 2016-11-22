@@ -213,6 +213,7 @@
 </table>
 
 ## 分类问题(仿照github上fb.resnet.torch工程制作数据集)
+
 #### 训练集路径(51类9668张图片)
 ```
 /home/sxwl1080/hzy/dl-data/sxwl_dataset/CarLogos51_recognize/train

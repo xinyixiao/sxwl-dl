@@ -1,4 +1,5 @@
 ## FlickrLogos-32(原数据集)
+
 #### 32类logo图片数据总量为2240张可用于目标检测，边缘检测。
 
 图片路径为
@@ -165,7 +166,7 @@
 
 ### 目标检测数据集(仿照voc2007制作数据集)
 
-#### 文件夹路径
+文件夹路径
 ```
 /home/sxwl1080/hzy/dl-data/sxwl_dataset/logo_detection/FlickrLogos_pasted
 ```
